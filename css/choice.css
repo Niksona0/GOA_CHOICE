@@ -65,11 +65,12 @@ section {
     animation-duration: 15s;
     animation-fill-mode: forwards;
     font-size: 1.25rem;
+    text-shadow: 0 0 10px white;
 }
 
 section:hover {
     font-size: 1.4rem;
-    text-shadow: 0 0 15px white;
+    text-shadow: 0 0 20px white;
 }
 
 .cont-both {
