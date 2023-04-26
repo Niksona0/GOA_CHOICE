@@ -25,7 +25,7 @@ a {
 main {
     z-index: 999;
     width: 800px;
-    height: 500px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +37,7 @@ main {
 }
 
 main h1 {
-    font-size: 4.5rem;
+    font-size: 4.3rem;
     text-shadow: 0 0 20px white;
     transition: .6s ease-out;
 }
@@ -51,7 +51,7 @@ main:hover {
 }
 
 h1:hover {
-    font-size: 5.5rem;
+    font-size: 5rem;
 }
 
 
