@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(../images/goa-clean-bg.png);
+    background-size: cover;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    z-index: 999;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: .6s ease-out;
+    background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), rgba(49, 67, 46, 0.7), rgb(24, 31, 24)) no-repeat 0 0;
+}
+
+main h1 {
+    font-size: 4.5rem;
+    text-shadow: 0 0 20px white;
+    transition: .6s ease-out;
+}
+
+main:hover {
+    scale: 1.1;
+    background-color: rgba(255,255,255,.1);
+    -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+}
+
+h1:hover {
+    font-size: 5.5rem;
+}
+
+
+
+
+
