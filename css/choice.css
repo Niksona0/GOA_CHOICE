@@ -21,10 +21,10 @@ body {
 canvas {
     position: absolute;
     z-index: 99;
-    opacity: .3;
+    opacity: 1;
     width: 100%;
 }
-
+/* 
 a {
     text-decoration: none;
     color: white;
@@ -157,4 +157,4 @@ h1 {
         opacity: 1;
         display: inline-block;
     }
-}
+} */

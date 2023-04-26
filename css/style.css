@@ -33,7 +33,7 @@ main {
     border-radius: 10px;
     border: 1px solid white;
     transition: .6s ease-out;
-    background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), rgba(49, 67, 46, 0.7), rgb(24, 31, 24)) no-repeat 0 0;
+    background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), rgba(91, 134, 83, 0.7), rgb(24, 31, 24)) no-repeat 0 0;
 }
 
 main h1 {
