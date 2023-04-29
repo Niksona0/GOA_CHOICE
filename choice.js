@@ -38,7 +38,7 @@ const draw = () => {
 	}
 };
 
-setInterval(draw, 30);
+setInterval(draw, 10);
 
 const root = document.documentElement;
  
